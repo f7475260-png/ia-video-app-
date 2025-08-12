@@ -10,4 +10,15 @@
   ]
 }
 
+{
+  "voices": [
+    { "url": "https://example.com/voice1.mp3", "name": "intro" }
+  ],
+  "videos": [
+    { "url": "https://example.com/video1.mp4", "name": "scene_tokyo" }
+  ],
+  "subtitles": [
+    { "url": "https://example.com/sub1.vtt", "name": "sous_titre_fr" }
+  ]
+}
 
