@@ -80,4 +80,6 @@ def generate_video(data: dict) -> str:
     if format_type in {"tiktok", "short"}:
         return (1080, 1920)  # Format vertical
     return (1920, 1080)      # Format horizontal (YouTube)
+w, h = _target_resolution(format_type)
+image_clip = ImageClip(image_path).resize(height=h).set_duration(5)
 
