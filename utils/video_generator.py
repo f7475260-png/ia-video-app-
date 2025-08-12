@@ -76,3 +76,8 @@ def generate_video(data: dict) -> str:
     except Exception:
         pass
     return out_path
+    def _target_resolution(format_type: str) -> tuple[int, int]:
+    if format_type in {"tiktok", "short"}:
+        return (1080, 1920)  # Format vertical
+    return (1920, 1080)      # Format horizontal (YouTube)
+
