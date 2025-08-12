@@ -36,3 +36,5 @@ if submitted:
             st.error("La vidéo n'a pas pu être trouvée ou générée.")
     except Exception as e:
         st.error(f"Erreur lors de la génération : {str(e)}")
+from utils.asset_manager import run as run_assets
+from pathlib import Path
