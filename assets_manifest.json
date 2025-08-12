@@ -1,0 +1,13 @@
+{
+  "voices": [
+    { "url": "https://exemple.com/tts/voix1.mp3", "name": "voix-intro" }
+  ],
+  "videos": [
+    { "url": "https://exemple.com/videos/clip1.mp4", "name": "broll-japon" }
+  ],
+  "subtitles": [
+    { "url": "https://exemple.com/subs/video1.vtt", "name": "video1-fr" }
+  ]
+}
+
+
