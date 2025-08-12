@@ -1,8 +1,9 @@
-flask
-moviepy
-requests
-gTTS
-python-dotenv
 streamlit
+moviepy
+imageio
+imageio-ffmpeg
+gTTS
+requests
+python-dotenv
 pillow
 numpy
