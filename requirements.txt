@@ -1,0 +1,8 @@
+streamlit
+gTTS
+pydub
+moviepy
+numpy
+Pillow
+requests
+openai
