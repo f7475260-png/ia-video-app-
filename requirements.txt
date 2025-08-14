@@ -1,9 +1,0 @@
-streamlit
-moviepy
-imageio
-imageio-ffmpeg
-gTTS
-requests
-python-dotenv
-pillow
-numpy
