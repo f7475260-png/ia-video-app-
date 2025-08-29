@@ -1,0 +1,9 @@
+# 1. Cloner le projet
+git clone <votre-repo>
+cd video-ai-pro
+
+# 2. Installation automatique
+python install_deps.py
+
+# 3. Premier lancement (génère les 1000 vidéos)
+python main.py --text "L'intelligence artificielle révolutionne notre monde"
