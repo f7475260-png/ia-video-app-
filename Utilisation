@@ -1,5 +1,0 @@
-# Mode simple
-python main.py
-
-# Mode avancé
-python main.py --text "Votre texte ici" --style youtube --output ma_video.mp4
